@@ -18,5 +18,6 @@ dependencies {
 }
 
 task runScript (type: JavaExec) {
-    println "${WORKSPACE}"
+    main = 'com.test.test'
+    classpath = sourceSets.main.runtimeClasspath
 }
