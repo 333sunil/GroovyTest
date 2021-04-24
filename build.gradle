@@ -18,6 +18,5 @@ dependencies {
 }
 
 task runScript (type: JavaExec) {
-    def value = "${testvalue}"
-    println value
+    println "${WORKSPACE}"
 }
