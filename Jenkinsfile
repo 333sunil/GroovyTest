@@ -6,6 +6,6 @@ node {
 
         }
         stage('run gradle task') {
-             sh "gradle runScript"
+             sh "./gradlew runScript"
         }
 }
