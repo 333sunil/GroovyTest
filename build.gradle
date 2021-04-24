@@ -1,4 +1,9 @@
+apply plugin: 'java'
 apply plugin: 'groovy'
+apply plugin: 'idea'
+apply plugin: 'distribution'
+apply plugin: 'application'
+apply plugin: 'base'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
